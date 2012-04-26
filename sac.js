@@ -17,6 +17,6 @@ function calculate()
 		total = total + payment;
 		output = output + i + " - R$ " + payment.toFixed(2) + "<br/>";
 	}
-	output = output + "Total: R$ " + total + "<br/>";
+	output = output + "Total: R$ " + total.toFixed(2) + "<br/>";
 	result.innerHTML = output;
 }
